@@ -1,0 +1,48 @@
+<div  [class.m2app-dark]="isDarkTheme">
+<md-sidenav-container>
+  
+  <md-toolbar color="primary">
+    <span><md-icon>mood</md-icon></span>
+
+    <span>MEAN Material2 Example App</span>
+
+    <span class="app-toolbar-filler"></span>
+    <button md-button (click)="isDarkTheme = !isDarkTheme">Toggle Theme</button>
+
+    <button md-icon-button [md-menu-trigger-for]="menu">
+      <md-icon>more_vert</md-icon>
+    </button>
+
+  </md-toolbar>
+
+<md-menu x-position="before" #menu="mdMenu">
+    <button md-menu-item>Option 1</button>
+    <button md-menu-item>Option 2</button>
+  </md-menu>
+
+<h4>
+  {{title}}
+</h4>
+
+
+<md-card>
+  <md-card-header>
+  <md-card-title><b>Example Card Title</b></md-card-title>
+  <md-card-subtitle>Subtitle</md-card-subtitle>
+  </md-card-header>
+  <md-card-content>bla bla bla bla</md-card-content>
+  <md-card-actions>
+    <button md-raised-button color="primary" link="#">First link</button>
+    <button md-raised-button color="none" link="#">Second link</button>
+  </md-card-actions>
+</md-card>
+
+<router-outlet></router-outlet>
+
+</md-sidenav-container>
+
+
+<span class="app-action" [class.m2app-dark]="isDarkTheme">
+  <button md-fab (click)="isDarkTheme = !isDarkTheme"><md-icon>check circle</md-icon></button>
+</span>
+</div>

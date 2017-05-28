@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row" *ngFor="let post of posts">
+		<md-card>
+			<md-card-header>
+			<md-card-title><b>{{post.title}}</b></md-card-title>
+			</md-card-header>
+			<md-card-content>{{post.body}}</md-card-content>
+			<md-card-actions>
+				<button md-raised-button color="primary" link="#">Card link</button>
+				<button md-raised-button color="none" link="#">Another link</button>
+			</md-card-actions>
+		</md-card>
+		<p>
+	</div>
+</div>
