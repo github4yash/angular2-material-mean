@@ -1,6 +1,33 @@
-# MeanApp
+# Angular2 Material2 MEAN Starter App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+
+## How to run this
+To run you’ll first need to install the Angular 2 CLI.
+
+```
+npm install -g angular-cli
+```
+
+Next, clone this repo.
+
+```
+git clone https://github.com/github4yash/angular2-material-mean.git
+cd angular2-material-mean
+```
+
+Then, install this app’s dependencies from npm.
+
+```
+npm install
+```
+
+And finally, run it. Since we have ng build && node server.js in package.json all you need to do to run is:
+
+```
+npm run build
+```
+Go to http://localhost:3000/posts on your browser to see the response. You can chang eteh theme by clicking on "Toggle Theme" button on top right.
 
 ## Development server
 
