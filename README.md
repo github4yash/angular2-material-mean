@@ -1,7 +1,6 @@
 # Angular2 Material2 MEAN Starter App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
-(Note: Create the empty file posts.component.css under src\app\posts)
 
 ## How to run this
 To run you’ll first need to install the Angular 2 CLI.
