@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6. This is mostly based on https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli (which uses https://jsonplaceholder.typicode.com/) with additions from here and there to use Material2 and its themes.
 
+Check out the Angular Seed project (https://github.com/mgechev/angular-seed) or Angular2 Strter app ( https://github.com/DavideViolante/Angular-Full-Stack)
+
 ## How to run this
 To run you’ll first need to install the Angular 2 CLI.
 
